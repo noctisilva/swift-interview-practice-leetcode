@@ -2,6 +2,7 @@
 <playground version='6.0' target-platform='ios'>
     <pages>
         <page name='1 Two Sum - Easy'/>
-        <page name='Untitled Page'/>
+        <page name='200 Number of Islands - Medium'/>
+        <page name='possibleSums - Hard'/>
     </pages>
 </playground>
