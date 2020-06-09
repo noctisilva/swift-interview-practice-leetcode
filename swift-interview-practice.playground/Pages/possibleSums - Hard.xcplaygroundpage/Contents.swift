@@ -5,26 +5,26 @@
 import Foundation
 
 func possibleSums(_ coins: [Int],_ quantity: [Int]) -> Int {
-    var sumset = Set<Int>()
-    var tempset = Set<Int>()
-    sumset.insert(0) //to start the array. Will subtract this later when outputting
+    var resultSet = Set<Int>()
+    var tempSet = Set<Int>()
+    resultSet.insert(0) //to start the array. Will subtract this later when outputting
     for i in 0..<coins.count {
         let coin = coins[i]
         for q in 0..<quantity[i] {
             let val = (q + 1) * coin
-            for s in sumset { // we do this because we're trying to use all of the coins not just one
-                print("coin: \(coin) | q: \(q) | val: \(val) | s: \(s) ")
-                if !sumset.contains(s + val) {
-                    tempset.insert(s + val) //yes yes yes
+            for currentSumInIndex in resultSet { // we do this because we're trying to use all of the coins not just one
+                print("coin: \(coin) | q: \(q) | val: \(val) | s: \(currentSumInIndex) ")
+                if !resultSet.contains(currentSumInIndex + val) {
+                    tempSet.insert(currentSumInIndex + val) //yes yes yes
                 }
             }
         }
-        print("1 sumset: \(sumset.sorted()) | tempset: \(tempset.sorted())")
-        sumset = sumset.symmetricDifference(tempset)
-        print("2 sumset: \(sumset) | tempset: \(tempset)\n")
-        tempset.removeAll()
+        print("1 sumset: \(resultSet.sorted()) | tempset: \(tempSet.sorted())")
+        resultSet = resultSet.symmetricDifference(tempSet)
+        print("2 sumset: \(resultSet) | tempset: \(tempSet)\n")
+        tempSet.removeAll()
     }
-    return sumset.count - 1
+    return resultSet.count - 1
 }
 let coins = [10, 50, 100]
 let quantity = [1, 2, 1]
