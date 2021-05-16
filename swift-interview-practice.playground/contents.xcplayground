@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios'>
     <pages>
-        <page name='possibleSums - Hard'/>
         <page name='1 Two Sum - Easy'/>
+        <page name='3 Longest Substring Without Repeating Characters'/>
+        <page name='5 Longest Palindromic Substring'/>
+        <page name='*15 Three Sum'/>
+        <page name='11 Container With Most Water'/>
+        <page name='19 Remove Nth Node from End List'/>
+        <page name='23 Merge k Sorted Lists'/>
+        <page name='54 Spiral Matrix - Medium'/>
         <page name='200 Number of Islands - Medium'/>
+        <page name='344 Reverse String'/>
+        <page name='422 Find All Duplicates in an Array'/>
+        <page name='424 Longest Repeating Character Replacement'/>
+        <page name='435 Non-overlapping Intervals'/>
+        <page name='572 Subtree of Another Tree'/>
+        <page name='647. Palindrome Substrings'/>
         <page name='653 Two Sum IV - Easy'/>
+        <page name='possibleSums - Hard'/>
+        <page name='JSON Decode Simple from String'/>
+        <page name='Swift Access Control Practice'/>
     </pages>
 </playground>
