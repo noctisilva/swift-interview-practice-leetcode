@@ -7,7 +7,11 @@
         <page name='*15 Three Sum'/>
         <page name='11 Container With Most Water'/>
         <page name='19 Remove Nth Node from End List'/>
+        <page name='20 Valid Parentheses'/>
+        <page name='21 Merge Two Sorted Lists'/>
         <page name='23 Merge k Sorted Lists'/>
+        <page name='33 Search in Rotated Sorted Array'/>
+        <page name='39 Combination Sum '/>
         <page name='54 Spiral Matrix - Medium'/>
         <page name='200 Number of Islands - Medium'/>
         <page name='344 Reverse String'/>
